@@ -30,7 +30,6 @@ The Python Fundamentals workshops are for beginners that have no prior experienc
 - Writing functions
 - Dictionaries
 - While Loops
-- Classes and OOP
 - Final Coding Challenges
         
 The notebooks will be combined into a single zip file. Mac-users can simple double click on the zip file to unpack the jupyter notebooks.
