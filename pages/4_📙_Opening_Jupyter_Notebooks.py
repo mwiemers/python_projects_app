@@ -50,7 +50,7 @@ st.image("img/select_kernel_03.png")
 
 st.markdown(
     """
-6. Scroll down to the first ask and hit the Run button next to the code cell. This button is used to execute the code inside a code cell.
+6. Scroll down to the first task and hit the Run button next to the code cell. This button is used to execute the code inside a code cell.
 """)
 
 st.image("img/install_jupyter_01.png")
