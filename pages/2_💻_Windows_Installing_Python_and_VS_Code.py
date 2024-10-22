@@ -26,7 +26,6 @@ With Miniconda you can install Python, Python libraries and easily manage differ
             
 You will use Miniconda in combination with VS Code to write code in Python using Jupyter Notebooks.
             
-The final video will show you how to open the Python exercises as jupyter notebooks in VS Code and how to write and run Python code.
         
 """)
 
