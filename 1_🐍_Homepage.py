@@ -2,13 +2,13 @@ import streamlit as st
 from load_css import local_css
 
 st.set_page_config(
-    page_title='Digital Skills Lab Python for Mathematics workshops',
+    page_title='Digital Skills Lab Python workshops',
     page_icon="🐍"
 )
 
 local_css("css/style.css")
 
-st.title("DSL Python for Mathematics workshops")
+st.title("DSL Python workshops")
 
 
 st.markdown(
@@ -29,15 +29,11 @@ with cols[1]:
 
 st.markdown(
     """
-    The DSL Python for Mathematics workshops support is divided into two main parts:
-
-    1. The instructions from this website to install Python + VS Code on your laptop to use Jupyter Notebooks (30 min)
-    2. The on-campus Python workshops to learn the fundamentals of programming in Python (10-12 hours of learning).
-
-    Please follow the instructions on this website to install Python + VS Code to use Jupyter Notebooks before 
-    you join the DSL Python for Mathematics workshops.
+    Python is pre-installed on all teaching PCs in our library training room LRB.R08.
     
-    We recommend to set apart 30 minutes to work through this tutorial (excluding the optional sections on installing libraries and managing environments).
+    If you wish to install Python on your personal laptop, plese follow the instructions on this website to install Python + VS Code to use Jupyter Notebooks.
+    
+    We recommend to set apart 15 minutes to work through this tutorial (excluding the optional sections on installing libraries and managing environments).
 
     Please work through the pages from the sidebar menu for information about:
     * Why Python is such a popular programming language and why you should learn it.

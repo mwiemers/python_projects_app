@@ -49,16 +49,8 @@ The Python Fundamentals workshops are for beginners that have no prior experienc
 Each of the notebooks will take you roughly 1 hour to complete. We estimate that the average learner will required 10-12 hours to complete 
 all topics excluding the final coding challenge, which will take another 1-3 hours to complete.
             
-The workshops will be run in week 4+8 in AT and week 4 in WT.
+All workshops are help in our library training room, LRB.R08.
             
-Dates and times for the in-person workshops:  
-
-| Date  | Time  | Location  | 
-|---|---|---|
-| 21-Oct-2024 | 11.00 | LSE LIFE Workspace 4 |
-| 18-Nov-2024 | 11.00 | LSE LIFE Workspace 4 |
-| 10-Feb-2024 | 11.00 | LSE LIFE Workspace 4 |
-
 &nbsp;
 
 <div class="highlight red">
@@ -69,7 +61,7 @@ There are a limited number of spaces available for each session!
 <br>
 <br> 
 <b>Please use 
-<a href="https://apps.lse.ac.uk/training-system/userBooking/course/10376611">this link</a> to secure your spot.</b>
+<a href="https://apps.lse.ac.uk/training-system/userBooking/course/10337174">this link</a> to secure your spot.</b>
 If you can no longer attend, please cancel your booking so another student can book.</div>
 
 
