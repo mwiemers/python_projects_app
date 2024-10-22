@@ -24,7 +24,7 @@ or multiple tasks. More challenging tasks might require you to combine technique
 or ask our Python experts or your fellow students for help. Developing expertise and confidence in your ability to get help from online resources is a 
 crucial skill for every programmer, which is why we will often encourage you to search online.
             
-The DSL Python for Math workshops are each one-hour long and follow an open-format, which means that you can choose which topic to work on. It is advised to work through the materials 
+The DSL Python workshops are each two-hours long and follow an open-format, which means that you can choose which topic to work on. It is advised to work through the materials 
 in order unless you are already familiar with a particular topic.
 
 
@@ -46,7 +46,7 @@ The Python Fundamentals workshops are for beginners that have no prior experienc
 
 &nbsp; 
             
-Each of the notebooks will take you roughly 1 hour to complete. We estimate that the average learner will required 10-12 hours to complete 
+Each of the projects will take you roughly 2-3 hour to complete. We estimate that the average learner will required 10-15 hours to complete 
 all topics excluding the final coding challenge, which will take another 1-3 hours to complete.
             
 All workshops are help in our library training room, LRB.R08.
