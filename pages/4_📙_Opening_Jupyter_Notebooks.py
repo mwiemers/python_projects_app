@@ -81,7 +81,26 @@ st.markdown(
     &nbsp;
 """)
 
+st.markdown(
+    """
+    ### Working with Python scripts in VS Code
 
+Watch this video to learn about how to use Python scripts in VS Code, which you will need to use for the fourth project where you create a 
+simple music app in Python.
+
+The video covers:
+- creating a new Python script.
+- arranging panes in VS Code to work with scripts and jupyter notebooks/other file types at the same time.
+- selecting your Python environment to run Python scripts with.
+- running an entire Python script in VS Code.
+- running a selection of code from a Python script in VS Code.
+"""
+)
+
+video_file = open("videos/vs_code_scripts.mp4", "rb")
+video_bytes = video_file.read()
+
+st.video(video_bytes)
 
 st.markdown(
     """
