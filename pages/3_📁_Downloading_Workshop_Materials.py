@@ -39,11 +39,11 @@ This should create a new folder named PF_notebooks which contains the different 
 """)
 
 
-with open("materials/PF_notebooks2.zip", "rb") as f:
+with open("materials/PF_notebooks.zip", "rb") as f:
     btn = st.download_button(
         label = "Download Python Fundamentals materials",
         data = f,
-        file_name = "PF_notebooks2.zip",
+        file_name = "PF_notebooks.zip",
         mime = "application/zip"
         )
 
