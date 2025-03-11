@@ -43,7 +43,7 @@ with open("materials/PF_notebooks.zip", "rb") as f:
     btn = st.download_button(
         label = "Download Python Fundamentals materials",
         data = f,
-        file_name = "PF_notebooks.zip",
+        file_name = "PF_notebooks2.zip",
         mime = "application/zip"
         )
 
