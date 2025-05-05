@@ -42,10 +42,10 @@ st.markdown(
     """
 ### Installing Miniconda
 
-Depending on whether your Mac has an M1/M2 or Intel processor, you will have to download a different version of miniconda and VS Code. Check the processor 
+Depending on whether your Mac has an M or Intel processor, you will have to download a different version of miniconda and VS Code. Check the processor 
 type by clicking on the Apple icon in the top left corner of your screen and selecting About this Mac. 
 
-If you have an M1/M2 processor, you will see Apple M1 in the Overview tab. If you have an Intel processor, you will see Intel in the Overview tab.
+If you have an M processor, you will see Apple M1-M4 in the Overview tab. If you have an Intel processor, you will see Intel in the Overview tab.
 
 """)        
 
@@ -56,7 +56,7 @@ st.markdown(
 
 For Intel Macs, download and install [this file](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg).
 
-For M1-M3 Mac, download and install [this file](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg).
+For M processor Macs, download and install [this file](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg).
 """)        
 
 
@@ -68,7 +68,7 @@ Go to [this website](https://code.visualstudio.com/download#).
 
 1. Download the installer.
     - If you have an Intel Mac, select intel-chip as you can see in the highlighted section below.
-    - If you have an M1-M3 Mac, select Apple silicon in the highlighted section.
+    - If you have an M processor Mac, select Apple silicon in the highlighted section.
 2. Double click on the installer file. Drag the VS Code icon into your application folder.
 """)        
 
