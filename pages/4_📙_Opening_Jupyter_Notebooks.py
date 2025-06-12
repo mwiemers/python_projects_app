@@ -83,9 +83,9 @@ st.markdown(
 
 st.markdown(
     """
-    ### Working with Python scripts in VS Code
+    ### Working with Python scripts in VS Code (only relevant for Project 6)
 
-Watch this video to learn about how to use Python scripts in VS Code, which you will need to use for the fourth project where you create a 
+Watch this video to learn about how to use Python scripts in VS Code, which you will need to use for project 6 where you create a 
 simple music app in Python.
 
 The video covers:
