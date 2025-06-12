@@ -29,9 +29,11 @@ with cols[1]:
 
 st.markdown(
     """
-    Python is pre-installed on all teaching PCs in our library training room LRB.R08.
+    Python is pre-installed on all teaching PCs in **our library training room LRB.R08**.
     
-    If you wish to install Python on your personal laptop, plese follow the instructions on this website to install Python + VS Code to use Jupyter Notebooks.
+    If you wish to install Python on your **personal laptop**, please follow the instructions on this website to install Python + VS Code to use Jupyter Notebooks.
+
+    For students joining the **Python Bootcamp**, please follow the installation instructions, as the teaching room will NOT have PCs.
     
     We recommend to set apart 15 minutes to work through this tutorial (excluding the optional sections on installing libraries and managing environments).
 
