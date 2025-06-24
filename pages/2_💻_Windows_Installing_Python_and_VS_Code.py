@@ -20,11 +20,11 @@ st.set_page_config(
 local_css("css/style.css")
 
 st.markdown("""
-## Installing Miniconda, Python, Jupyter Notebook and VS Code on your Windows laptop
+## Installing Anaconda, Python, Jupyter Notebook and VS Code on your Windows laptop
         
-With Miniconda you can install Python, Python libraries and easily manage different Python environments on your personal laptop.
+With Anaconda you can install Python, Python libraries and easily manage different Python environments on your personal laptop.
             
-You will use Miniconda in combination with VS Code to write code in Python using Jupyter Notebooks.
+You will use Anaconda in combination with VS Code to write code in Python using Jupyter Notebooks.
             
         
 """)
@@ -39,11 +39,11 @@ st.image("img/settings.png", width=400)
 
 st.markdown(
     """
-### Installing Miniconda
+### Installing Anaconda
 
-Download and run [this file](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe).
+Download and run [this file](https://repo.anaconda.com/archive/Anaconda3-2025.06-0-Windows-x86_64.exe).
 
-During the installation, when being asked, tick the option to **add Miniconda3 to the my PATH environemt variable**.
+During the installation, when being asked, tick the option to **add Anaconda3 to the my PATH environemt variable**.
 """)        
 
 st.image("img/miniconda_add_to_path.png", width=400)

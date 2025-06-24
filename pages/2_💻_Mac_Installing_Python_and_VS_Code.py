@@ -20,11 +20,11 @@ st.set_page_config(
 local_css("css/style.css")
 
 st.markdown("""
-## Installing Miniconda, Python, Jupyter Notebook and VS Code on your MacBook
+## Installing Anaconda, Python, Jupyter Notebook and VS Code on your MacBook
         
-With Miniconda you can install Python, Python libraries and easily manage different Python environments on your personal laptop.
+With Anaconda you can install Python, Python libraries and easily manage different Python environments on your personal laptop.
             
-You will use Miniconda in combination with VS Code to write code in Python using Jupyter Notebooks.
+You will use Anaconda in combination with VS Code to write code in Python using Jupyter Notebooks.
             
 
         
@@ -40,9 +40,9 @@ st.image("img/settings.png", width=400)
 
 st.markdown(
     """
-### Installing Miniconda
+### Installing Anaconda
 
-Depending on whether your Mac has an M or Intel processor, you will have to download a different version of miniconda and VS Code. Check the processor 
+Depending on whether your Mac has an M or Intel processor, you will have to download a different version of Anaconda and VS Code. Check the processor 
 type by clicking on the Apple icon in the top left corner of your screen and selecting About this Mac. 
 
 If you have an M processor, you will see Apple M1-M4 in the Overview tab. If you have an Intel processor, you will see Intel in the Overview tab.
@@ -54,9 +54,9 @@ st.image("img/mac_processor.png", width=400)
 st.markdown(
     """
 
-For Intel Macs, download and install [this file](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg).
+For Intel Macs, download and install [this file](https://repo.anaconda.com/archive/Anaconda3-2025.06-0-MacOSX-x86_64.pkg).
 
-For M processor Macs, download and install [this file](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg).
+For M processor Macs, download and install [this file](https://repo.anaconda.com/archive/Anaconda3-2025.06-0-MacOSX-arm64.pkg).
 """)        
 
 
