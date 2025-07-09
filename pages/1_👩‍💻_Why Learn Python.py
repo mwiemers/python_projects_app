@@ -147,7 +147,8 @@ def main(dropdown_values):
         .apply(lambda x: x * 100 - 100)
     )
 
-    st.dataframe(returns, use_container_width=True)
+    df = yf.download(dropdown, period='1mo', progress=False, repair=True)
+    st.dataframe(df, use_container_width=True)
 
     st.write('\n\n Stock Returns %')
     st.line_chart(returns)
