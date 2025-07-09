@@ -147,6 +147,8 @@ def main(dropdown_values):
         .apply(lambda x: x * 100 - 100)
     )
 
+    st.dataframe(returns, use_container_width=True)
+
     st.write('\n\n Stock Returns %')
     st.line_chart(returns)
 
