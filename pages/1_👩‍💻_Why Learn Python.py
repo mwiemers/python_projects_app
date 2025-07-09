@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import yfinance as yf
+from yahooquery import Ticker
 import plotly.express as px
 
 
@@ -139,17 +139,26 @@ def main(dropdown_values):
     start = st.date_input('Start', value=pd.to_datetime('2019-01-01'))
     end = st.date_input('End', value=pd.to_datetime('today'))
     
+    t = Ticker(dropdown)
+    stock_prices = t.history(start=start, end=end, interval="1d")
+    stock_prices = (
+        stock_prices
+        .reset_index()
+        .pivot(
+            index="date", 
+            columns="symbol", 
+            values="adjclose"
+        )
+    )
+    stock_prices.index = pd.to_datetime(stock_prices.index)
     returns = (
-        yf.download(dropdown, start, end)['Close']
+        stock_prices
         .pct_change()
         .apply(lambda x: x + 1)
         .cumprod()
         .apply(lambda x: x * 100 - 100)
     )
-
-    df = yf.download(dropdown, period='1mo', progress=False, repair=True)
-    st.dataframe(df, use_container_width=True)
-
+    
     st.write('\n\n Stock Returns %')
     st.line_chart(returns)
 
