@@ -136,16 +136,16 @@ def main(dropdown_values):
         dropdown_values,
         ['TSLA'])
 
+    print(dropdown)
     start = st.date_input('Start', value=pd.to_datetime('2019-01-01'))
     end = st.date_input('End', value=pd.to_datetime('today'))
-
+    print(start, end)
     returns = (
-        yf.download(dropdown, start, end)['Adj Close']
+        yf.download(dropdown, start, end)['Close']
         .pct_change()
         .apply(lambda x: x + 1)
         .cumprod()
-        .apply(lambda x: x*100 - 100)
-        .rename("stock returns %")
+        .apply(lambda x: x * 100 - 100)
     )
 
     st.write('\n\n Stock Returns %')
