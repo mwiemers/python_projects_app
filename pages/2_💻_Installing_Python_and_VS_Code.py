@@ -105,24 +105,6 @@ play_video(vs_code_installation_mac_video)
 
 st.markdown(
     """
-### Creating a Python environment for Python 3.12 and jupyter notebooks
-    
-Follow the steps from the following video to set up a Python environment and install all libraries required for Jupyter Notebooks.
-
-An environment in programming is like a folder on your computer with a specific version of a programming language, i.e. Python 3.12, and the libraries you need 
-to work with the programming language. We use environments so that we can work with different versions of Python. At this point, to work with the Python exercises,
-you will only need this one environment with Python 3.12 and the jupyter notebook libraries.
-
-""")        
-
-create_python_env_video = "screen_rec/both/create_python_env_edited.mp4" 
-
-play_video(create_python_env_video)
-
-
-
-st.markdown(
-    """
 <br>
 
  <div class="highlight blue">
