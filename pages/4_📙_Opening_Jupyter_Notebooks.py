@@ -40,7 +40,7 @@ work with the jupyter notebooks.
 6. Type in your solution code in the code cell and run the code with the Cmd+Enter (Mac) or Ctrl+Enter (Win) keyboard shortcut.
 """)
 
-vs_code_jupyter_notebooks_video = "screen_rec/both/vs_code_jupyter_notebooks.mp4" 
+vs_code_jupyter_notebooks_video = "screen_rec/both/vs_code_jupyter_notebooks.mov" 
 
 play_video(vs_code_jupyter_notebooks_video)
 
