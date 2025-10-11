@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Claude as a Learning Partner</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #FAFAFA;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #0E1117;
+        }
+
+        h1 {
+            color: #FFFFFF;
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #8b5cf6;
+        }
+
+        h2 {
+            color: #FFFFFF;
+            font-size: 1.4em;
+            font-weight: 600;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #FAFAFA;
+        }
+
+        .intro-text {
+            font-size: 1.05em;
+            color: #E0E0E0;
+            margin-bottom: 30px;
+        }
+
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #1E1E1E;
+        }
+
+        .comparison-table th {
+            background-color: #262730;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95em;
+            border-bottom: 2px solid #3D3D3D;
+            color: #FFFFFF;
+        }
+
+        .comparison-table td {
+            padding: 15px;
+            border-bottom: 1px solid #3D3D3D;
+            vertical-align: top;
+            background-color: #1A1A1A;
+        }
+
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .wrong-approach {
+            background-color: #2D1515;
+            border-left: 4px solid #EF4444;
+        }
+
+        .right-approach {
+            background-color: #152D1E;
+            border-left: 4px solid #22C55E;
+        }
+
+        .wrong-approach th {
+            background-color: #3D2020;
+        }
+
+        .right-approach th {
+            background-color: #1F3D2C;
+        }
+
+        .wrong-approach em,
+        .right-approach em {
+            color: #E0E0E0;
+        }
+
+        .wrong-icon {
+            color: #EF4444;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .right-icon {
+            color: #22C55E;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        /* Example Box */
+        .example-box {
+            background-color: #262730;
+            border-left: 4px solid #8b5cf6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: #E0E0E0;
+        }
+
+        .example-box strong {
+            font-style: normal;
+            color: #FFFFFF;
+        }
+
+        /* Bullet List */
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+            color: #FAFAFA;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        /* Dialogue Box */
+        .dialogue-box {
+            background-color: #2D2B1F;
+            border: 1px solid #5C5A3D;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+
+        .dialogue-line {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #E8E6D0;
+        }
+
+        .dialogue-line:last-child {
+            margin-bottom: 0;
+        }
+
+        .speaker {
+            font-weight: 600;
+            color: #FCD34D;
+        }
+
+        .dialogue-text {
+            font-style: italic;
+            margin-left: 10px;
+            color: #E8E6D0;
+        }
+
+        /* Footer Message */
+        .footer-message {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #1E2837;
+            border-left: 4px solid #3B82F6;
+            font-style: italic;
+            border-radius: 4px;
+            color: #D6E3F5;
+        }
+
+        .footer-message strong {
+            font-style: normal;
+            color: #FFFFFF;
+        }
+
+        /* Code/Quote styling */
+        code {
+            background-color: #262730;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #E0E0E0;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #FFFFFF;
+        }
+
+        em {
+            color: #D0D0D0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Using Claude as a Learning Partner</h1>
+
+    <p class="intro-text">
+        Rather than using Claude to generate solutions, this guide will teach you how to use it to deepen your understanding and develop problem-solving skills. Claude is most valuable as a <strong>learning partner</strong>, not a solution generator.
+    </p>
+
+    <h2>Ask the Right Questions to Support Your Independent Thinking</h2>
+
+    <table class="comparison-table">
+        <thead>
+            <tr>
+                <th class="wrong-approach"><span class="wrong-icon">❌</span>Getting a quick solution</th>
+                <th class="right-approach"><span class="right-icon">✓</span>Asking learning-oriented questions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="wrong-approach">
+                    <em>"Write a function to calculate the median"</em>
+                </td>
+                <td class="right-approach">
+                    <em>"I'm trying to understand how to calculate the median manually. Can you walk me through the logic I need to implement, without showing me the code?"</em>
+                </td>
+            </tr>
+            <tr>
+                <td class="wrong-approach">
+                    <em>"What formula do I need for this?"</em>
+                </td>
+                <td class="right-approach">
+                    <em>"I need to calculate a running total. What Excel concepts should I understand to build this myself?"</em>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Use Project Instructions to Personalise Your Experience</h2>
+
+    <p>
+        Claude can provide more tailored guidance when it understands your background and learning goals. A few suggestions of what to include in your project instructions:
+    </p>
+
+    <ul>
+        <li>Programming languages/software you already know</li>
+        <li>Areas where you typically struggle</li>
+        <li>Your learning preferences (visual examples, analogies, step-by-step breakdowns)</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Example:</strong> "I'm a second-year Statistics student at LSE, currently learning Python for data analysis. I have basic programming experience from R but am new to object-oriented programming. I'm working through exercises on pandas DataFrames and data visualisation. Please help me understand concepts rather than just providing solutions."
+    </div>
+
+    <h2>Choose the Right Response Style</h2>
+
+    <p>
+        Claude can adapt its response style to match your current learning need. For instance, <strong>explanatory mode</strong> can support you with understanding complex concepts. <strong>Learning mode</strong> is designed to support understanding through guided discovery rather than direct solution-giving. You can easily switch response styles within a chat.
+    </p>
+
+    <h2>Use Socratic Dialogue for Deeper Learning</h2>
+
+    <p>
+        Explore concepts through dialogue instead of accepting explanations passively.
+    </p>
+
+    <div class="dialogue-box">
+        <div class="dialogue-line">
+            <span class="speaker">You:</span>
+            <span class="dialogue-text">"My pandas merge isn't working as expected. Instead of showing me the solution, can you help me think through what might be wrong?"</span>
+        </div>
+        
+        <div class="dialogue-line">
+            <span class="speaker">Claude:</span>
+            <span class="dialogue-text">"Let's explore this together. First, can you tell me what you expect the merge to do versus what it's actually doing?"</span>
+        </div>
+        
+        <div class="dialogue-line">
+            <span class="speaker">You:</span>
+            <span class="dialogue-text">[Describe the issue]</span>
+        </div>
+        
+        <div class="dialogue-line">
+            <span class="speaker">Claude:</span>
+            <span class="dialogue-text">"Interesting. What type of merge are you using (inner, outer, left, right)? And why did you choose that type?"</span>
+        </div>
+    </div>
+
+    <div class="footer-message">
+        <em>The goal is <strong>not</strong> to get the right answer as quickly as possible -- it's to develop the skills and understanding that will help you solve similar problems independently in the future.</em>
+    </div>
+
+</body>
+</html>
