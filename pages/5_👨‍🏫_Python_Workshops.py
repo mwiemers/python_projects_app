@@ -49,7 +49,7 @@ all topics excluding the final coding challenge, which will take another 1-3 hou
             
 &nbsp;
 
-<div class="highlight red">
+<div class="highlight blue">
 Sign ups for the Python workshops will be available from a week before start of term.
 <br>
 <br>
